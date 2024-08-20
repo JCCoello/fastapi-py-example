@@ -1,0 +1,8 @@
+# create virtaul environment
+python3 -m venv venv
+
+# activate enviroment
+source venv/bin/activate
+
+# run api on localhost
+fastapi dev main.py
